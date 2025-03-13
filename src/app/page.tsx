@@ -112,7 +112,7 @@ END:VCARD`;
         )}
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <div>
+        <div className="text-2xl/7 font-bold text-indigo-600 sm:truncate sm:text-3xl sm:tracking-tight">
           {title && fullName
             ? `${title} ${fullName}`
             : title
