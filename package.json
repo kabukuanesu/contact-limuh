@@ -2,14 +2,11 @@
   "name": "contact-limuh",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kabukuanesu.github.io/contact-limuh",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "build": "next build && next export",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
