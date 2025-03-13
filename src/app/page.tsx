@@ -97,7 +97,7 @@ END:VCARD`;
             <button
               type="button"
               onClick={() => router.push("/form")}
-              className="inline-flex items-center rounded-md bg-black px-3 py-2 text-sm font-semibold text-indigo-900 ring-1 shadow-xs ring-indigo-300 ring-inset hover:bg-indigo-50"
+              className="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-indigo-900 ring-1 shadow-xs ring-indigo-300 ring-inset hover:bg-indigo-50"
             >
               Edit
             </button>
