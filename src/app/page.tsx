@@ -97,7 +97,7 @@ END:VCARD`;
             <button
               type="button"
               onClick={() => router.push("/form")}
-              className="inline-flex items-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-indigo-900 ring-1 shadow-xs ring-indigo-300 ring-inset hover:bg-indigo-50"
+              className="inline-flex items-center rounded-md bg-black px-3 py-2 text-sm font-semibold text-indigo-900 ring-1 shadow-xs ring-indigo-300 ring-inset hover:bg-indigo-50"
             >
               Edit
             </button>
@@ -108,7 +108,7 @@ END:VCARD`;
         {qrCodeUrl ? (
           <img src={qrCodeUrl} alt="QR Code" className="w-48 h-48" />
         ) : (
-          <div>Generate QR Code Here</div>
+          <div>QR Code</div>
         )}
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
@@ -119,7 +119,7 @@ END:VCARD`;
             ? title
             : fullName
             ? fullName
-            : "Full Name Not Available"}
+            : "Press Edit Button"}
         </div>
       </footer>
     </div>
