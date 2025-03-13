@@ -93,7 +93,7 @@ END:VCARD`;
           </div>
         </div>
         <div className="mt-5 flex lg:mt-0 lg:ml-4">
-          <span className="hidden sm:block">
+          <span className="sm:block">
             <button
               type="button"
               onClick={() => router.push("/form")}
